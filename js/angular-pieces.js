@@ -7,5 +7,4 @@
 			 templateUrl: '/partials/footer.html'
 		 };
 	});
-	 
 })();
