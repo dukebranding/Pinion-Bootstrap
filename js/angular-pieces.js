@@ -4,7 +4,7 @@
 	app.directive('pinionFooter', function(){
 		 return {
 			 restrict: 'E',
-			 templateUrl: '../partials/pinion-footer.html'
+			 templateUrl: '/partials/footer.html'
 		 };
 	});
 	 
