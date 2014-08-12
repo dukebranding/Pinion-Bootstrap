@@ -22,7 +22,7 @@
 		 };
 	});
 	
-	app.directive('pinionPageProgress', function(){
+	app.directive('pinionProgress', function(){
 		 return {
 			 restrict: 'E',
 			 templateUrl: '/partials/pinion-progress.html'
@@ -42,6 +42,22 @@
 			 templateUrl: '/partials/pinion-settings.html'
 		 };
 	});
+	
+	app.directive('pinionMyaccount', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/pinion-myaccount.html'
+		 };
+	});
+	
+	app.directive('buttonsSaveCancel', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/buttons-save-cancel.html'
+		 };
+	});
+	
+	
 	
 	
 })();
