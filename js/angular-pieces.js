@@ -5,7 +5,7 @@
 		 return {
 			 restrict: 'E',
 			 templateUrl: '../partials/pinion-footer.html'
-		 }
+		 };
 	});
 	 
 })();
