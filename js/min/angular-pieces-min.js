@@ -1,0 +1,1 @@
+!function(){var i=angular.module("pinionApp",[]);i.directive("pinionFooter",function(){return{restrict:"E",templateUrl:"../partials/pinion-footer.html"}})}();
