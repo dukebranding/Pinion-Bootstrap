@@ -50,7 +50,7 @@
 		 };
 	});
 	
-	app.directive('dataRowHeader', function(){
+	app.directive('rowHeader', function(){
 		 return {
 			 restrict: 'E',
 			 templateUrl: '/partials/data-row-header.html'
