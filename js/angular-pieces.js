@@ -53,7 +53,7 @@
 	app.directive('rowHeader', function(){
 		 return {
 			 restrict: 'E',
-			 templateUrl: '/partials/data-row-header.html'
+			 templateUrl: '/partials/pinion-row-header.html'
 		 };
 	});
 	
