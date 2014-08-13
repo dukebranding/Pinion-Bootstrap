@@ -43,13 +43,6 @@
 		 };
 	});
 	
-	app.directive('pinionMyaccount', function(){
-		 return {
-			 restrict: 'E',
-			 templateUrl: '/partials/pinion-myaccount.html'
-		 };
-	});
-	
 	app.directive('buttonsSaveCancel', function(){
 		 return {
 			 restrict: 'E',
@@ -57,8 +50,12 @@
 		 };
 	});
 	
-	// comment
+	app.directive('dataRowHeader', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/data-row-header.html'
+		 };
+	});
 	
-	// new comment
-	//Change on master - Test change addition on Master. More changes to the master branch. Yet more changes to branch.
+	
 })();
