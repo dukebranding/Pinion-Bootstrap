@@ -18,3 +18,4 @@ var tabClicks = document.getElementsByClassName('tab-activate');
 //New feature for add pdf support implemented to test git branching
 
 //Hotfix implemented to fix xyz.
+//Additional fixes for Hotfix implementation.
