@@ -147,5 +147,33 @@
 			 templateUrl: '/partials/slide-section-header.html'
 		 };
 	});
+	
+	app.directive('buttonsSlideAddNew', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/buttons-slide-add-new.html'
+		 };
+	});
+	
+	app.directive('slideEditedPlaceholder', function(){
+		return{
+			restrict: 'E',
+			templateUrl: '/partials/slide-edited-placeholder.html'
+		}
+	});
+	
+	app.directive('buttonsEditTraining', function(){
+		return{
+			restrict: 'E',
+			templateUrl: '/partials/buttons-edit-training.html'
+		}
+	});
+	
+	app.directive('buttonsModify', function(){
+		return{
+			restrict: 'E',
+			templateUrl: '/partials/buttons-modify.html'
+		}
+	});
 
 })();
