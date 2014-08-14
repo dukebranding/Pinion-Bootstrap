@@ -13,3 +13,5 @@ var tabClicks = document.getElementsByClassName('tab-activate');
 });
 
 //Change done here. Additional Change here.
+
+//Hotfix implemented to fix xyz.
