@@ -12,7 +12,9 @@ var tabClicks = document.getElementsByClassName('tab-activate');
 		alert('tab 1 click');
 });
 
-//Change done here. Additional Change here. 
+//Change done here. Additional Change here.
 
 //New Feature for branch Test-New-Feature
 //New feature for add pdf support implemented to test git branching
+
+//Hotfix implemented to fix xyz.
