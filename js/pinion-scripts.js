@@ -15,3 +15,4 @@ var tabClicks = document.getElementsByClassName('tab-activate');
 //Change done here. Additional Change here. 
 
 //New Feature for branch Test-New-Feature
+//New feature for add pdf support implemented to test git branching
