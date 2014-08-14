@@ -106,5 +106,46 @@
 		 };
 	});
 	
+	app.directive('buttonsQuestion', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/buttons-question.html'
+		 };
+	});
+	
+	app.directive('slideQuestionMaterial', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/slide-question-material.html'
+		 };
+	});
+	
+	app.directive('slideAddNew', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/slide-add-new.html'
+		 };
+	});
+	
+	app.directive('buttonsAddCancel', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/buttons-add-cancel.html'
+		 };
+	});
+	
+	app.directive('slideModuleSettings', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/slide-module-settings.html'
+		 };
+	});
+	
+	app.directive('slideSectionHeader', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/slide-section-header.html'
+		 };
+	});
 
 })();
