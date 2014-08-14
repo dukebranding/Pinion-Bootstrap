@@ -57,7 +57,6 @@
 		 };
 	});
 	
-<<<<<<< HEAD
 	app.directive('pinionRow', function(){
 		 return {
 			 restrict: 'E',
@@ -100,11 +99,27 @@
 		 };
 	});
 	
+	app.directive('areaHeaderTest', function(){
+		 return {
+			 restrict: 'E',
+			 templateUrl: '/partials/area-header-test.html'
+		 };
+	});
 	
-	
-	
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
-    //CHange to test new branch    Corey Gaudin - 4PM
-    //123 -456
+
+>>>>>>> FETCH_HEAD
+=======
+
+>>>>>>> FETCH_HEAD
+=======
+
+>>>>>>> FETCH_HEAD
+=======
+
 >>>>>>> FETCH_HEAD
 })();
