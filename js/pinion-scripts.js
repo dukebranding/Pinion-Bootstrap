@@ -21,3 +21,4 @@ var tabClicks = document.getElementsByClassName('tab-activate');
 //Additional fixes for Hotfix implementation.
 //Fix issue 456
 //Release .125 additional code
+// fix issue 168
