@@ -233,8 +233,6 @@
 		}
 	});
 	
-	
-	
 	app.directive('clearfix', function(){
 		return {
 			restrict: 'E',
