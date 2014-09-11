@@ -2,8 +2,36 @@
 .display-block {
   display: block;
 }
+.display-inline-block {
+  display: inline-block;
+}
+.display-inline {
+  display: inline;
+}
 .center {
   text-align: center;
+}
+.round4 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.round8 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.margin-top-base {
+  margin-top: 30px;
+}
+.margin-right-base {
+  margin-right: 30px;
+}
+.margin-bottom-base {
+  margin-bottom: 30px;
+}
+.margin-left-base {
+  margin-left: 30px;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -28,6 +56,14 @@ body {
 -------------------------------------------------- */
 .progress {
   border-radius: 0px;
+}
+.icon-area-main {
+  font-size: 2em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  margin-bottom: 30px;
 }
 .leaf-sequence {
   display: block;

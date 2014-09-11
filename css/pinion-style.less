@@ -1,21 +1,80 @@
 // defaults and variables
 
+// type defaults
+@font-base: 1em;
+
+
+
+
 // colors
 @pinion-red: #ca4446;
+@white: #ffffff;
+@black: #000000;
+@grey-base: #808080;
+@grey-lighter: #a6a6a6;
+@grey-lightest: #cccccc;
+@grey-darker: #595959;
+@grey-darkest: #333333;
+
+
+
 
 // display types
 .display-block {
 	display: block;
 }
+.display-inline-block {
+	display: inline-block;
+}
+.display-inline {
+	display: inline;
+}
+
+
 
 // type and text
 .center {
 	text-align: center;
 }
 
+
+
+
+// graphic-related
+.round4 {
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.round8 {
+	-webkit-border-radius: 8px; 
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+
+
+// margins
+@margin-base: 30px;
+.margin-top-base {
+	margin-top: @margin-base;
+}
+.margin-right-base {
+	margin-right: @margin-base;
+}
+.margin-bottom-base {
+	margin-bottom: @margin-base;
+}
+.margin-left-base {
+	margin-left: @margin-base;
+}
+
+
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
-
 html {
 	position: relative;
 	min-height: 100%;
@@ -33,13 +92,21 @@ body {
 	height: 50px;
 	background-color: #f5f5f5;
 }
+
+
+
+
 /* Custom page CSS
 -------------------------------------------------- */
-
 .progress {
 	border-radius: 0px;
 }
-
+.icon-area-main {
+	font-size: (@font-base * 2);	
+	.round4;
+	border: 1px solid @grey-lightest;
+	.margin-bottom-base;
+}
 .leaf-sequence {
 	.display-block;
 	.center;
